@@ -1,0 +1,15 @@
+{
+  "name": "PaymentCreatedEvent",
+  "namespace": "br.ivan.ecommerce.payment.event",
+  "type": "record",
+  "fields": [
+    {
+      "name": "checkoutCode",
+      "type": ["string"]
+    },
+    {
+      "name": "paymentCode",
+      "type": ["string"]
+    }
+  ]
+}

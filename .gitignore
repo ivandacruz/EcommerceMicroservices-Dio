@@ -1,9 +1,10 @@
 HELP.md
 target/
-!.mvn/wrapper/maven-wrapper.jar
+!**.mvn/wrapper/maven-wrapper.jar
 .gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
+**/build/
+**/target/
+!**gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
@@ -20,7 +21,7 @@ bin/
 !**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
-.idea
+**.idea
 *.iws
 *.iml
 *.ipr
